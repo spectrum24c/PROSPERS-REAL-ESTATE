@@ -1,0 +1,67 @@
+.container{
+    width: 400px;
+    height: 450px;
+    border: solid 7px blue;
+    border-radius: 34px;
+    background-color: yellow;
+    margin-top: 50px;
+}
+
+.container div{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 19px;
+}
+
+input{
+    fill: none;
+    border: none;
+    border-radius: 20px;
+    width: 195px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.container input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+
+.container button{
+    width: 300px;
+    height: 43px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    display: block;
+   margin-top: 50px;
+   font-size: x-large;
+   color: yellow;
+   text-decoration: none;
+}
+
+.container button a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.container button:active{
+    transform: translateY(5px) translateX(3px);
+    width: 320px;
+    height: 47px;
+}
+
+.container button:hover{
+    translate: ease 0.3s;
+    background-color: black;
+    color: blue;
+}
+
+.container button a:hover{
+    translate: ease 0.3s;
+    color: blue;
+}
