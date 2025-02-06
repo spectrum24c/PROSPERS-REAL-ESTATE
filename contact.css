@@ -19,7 +19,7 @@ header .logo h1 {
 .navbar ul {
     display: flex;
     gap: 1rem;
-    
+    list-style-type: none;
 }
 
 .navbar ul li a {
@@ -27,10 +27,14 @@ header .logo h1 {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a.active {
     background-color: #FFD700;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .nav-toggle {

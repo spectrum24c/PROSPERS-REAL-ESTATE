@@ -58,8 +58,11 @@ header .logo h1 {
     transition: background-color 0.3s;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a.active {
     background-color: #FFD700;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .nav-toggle {
@@ -72,7 +75,7 @@ header .logo h1 {
 }
 
 .hero {
-    background: url(download.jpg) no-repeat center center/cover;
+    background: url(house-isolated-field.jpg) no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 5rem 1rem;
