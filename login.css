@@ -40,12 +40,45 @@ margin-right: 70px;
 margin-bottom: 18%;
 }
 
+@media (max-width: 870px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    body{
+        background: url(design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy.jpg);
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont {
+      margin-left: 30px;
+     
+    }
+    .content {
+        display: none;
+    }
+
+    .form input::placeholder{
+        color: #000;
+       font-size: 20px;
+    }
+
+    .container {
+   height: 100%;
+    }
+}
+
 .container {
     background: rgba(239, 239, 239, 0.4);
     backdrop-filter: blur(4px);
     padding: 20px;
-    height: 300px;
-    /* padding: 20px 10px 90px 10px; */
+    height: 50%;
     border-radius: 5px;
     width: 300px;
     margin-right: 50px;
