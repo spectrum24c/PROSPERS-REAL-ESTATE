@@ -5,74 +5,78 @@
 }
 
 body{
-    background: url() no-repeat center center/cover;
+    background: url(design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .container{
-    width: 400px;
-    height: 450px;
-    border: solid 7px blue;
-    border-radius: 34px;
-    background-color: yellow;
-    margin-top: 50px;
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
 }
-
-.container div{
+h1{
+    color: #00aaff;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+h3{
+    color: #00aaff;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+h2{
+    text-align: center;
     font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 19px;
+}
+.content{
+margin-right: 70px;
+margin-bottom: 18%;
 }
 
-input{
-    fill: none;
-    border: none;
-    border-radius: 20px;
-    width: 195px;
-    height: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: block;
-}
-
-.container input::placeholder{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 18px;
-    top: 10px;
-}
-
-.container button{
+.container {
+    background: rgba(239, 239, 239, 0.4);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    height: 300px;
+    /* padding: 20px 10px 90px 10px; */
+    border-radius: 5px;
     width: 300px;
-    height: 43px;
-    background-color: blue;
+    margin-right: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    margin-bottom: 40%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
     border: none;
-    border-radius: 20px;
-    display: block;
-   margin-top: 50px;
-   font-size: x-large;
-   color: yellow;
-   text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.container button a{
-    text-decoration: none;
-    color: yellow;
+.form button:hover {
+    background-color: #218838;
 }
 
-.container button:active{
-    transform: translateY(5px) translateX(3px);
-    width: 320px;
-    height: 47px;
+.hidden {
+    display: none;
 }
-
-.container button:hover{
-    translate: ease 0.3s;
-    background-color: black;
-    color: blue;
-}
-
-.container button a:hover{
-    translate: ease 0.3s;
-    color: blue;
-} */
-
